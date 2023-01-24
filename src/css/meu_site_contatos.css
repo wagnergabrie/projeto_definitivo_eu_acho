@@ -1,0 +1,182 @@
+body{
+    font-family: prompt;
+}
+
+.video_fundo{
+    position: absolute;
+    z-index: -1;
+    width: 200vh;
+    height: 131vh; 
+    overflow: hidden;  
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+.fundo_video{
+object-fit: cover;
+}
+.video_fundo::after{
+    content: "";
+    height: 131vh;
+    width: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 21%, rgba(0,0,0,0.6068802521008403) 50%, rgba(0,0,0,1) 81%);
+
+}
+.cabecalho{  
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo{
+    width: 150px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.cabecalho nav li a{
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+    padding:30px;
+    border-radius:50px;  
+    transition:1s;
+} 
+.cabecalho nav li a:hover{
+background-color: brown;
+}
+
+
+.conteiner{
+    color: lightgrey;
+    display: block;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+    height: calc(100vh - 153px);
+    text-align: center;
+}
+.parte1{
+    width: 75%;
+    margin-left: 180px;
+}
+.imagem_corpo{
+   /* margin: 40px 40px 400px 550px; */
+   position: absolute;
+   position: 40px 40px 40px 40px;
+    /* margin-left: 500px; */
+    width: 400px;
+    padding: 30px;
+}
+.titulo_principal{
+    font-size: 100px;  
+    padding: 30px; 
+}
+.lista_cursos {
+    padding: 30px;
+    display: inline;
+}
+.lista_cursos h2{
+    padding: 30PX;
+    font-size: 50px;
+}
+H2{
+    width: 50%;
+}
+.lista_cursos li{
+    padding: 10px;
+   
+}
+.lista_cursos ul{
+    width: 50%;
+}
+
+p{
+    font-size: 20px;
+}
+footer{
+    background: url(./dark-background-3494082_1920.jpg);
+    width: 80%;
+    margin-left: 180px;
+    border-radius: 50px;
+    color: azure;
+    margin: 0 auto;
+    margin-top: 1vh;
+    height: 35px;
+    text-align: center;
+    padding:40px 40px 40px 40px;
+}
+footer p{
+    padding: 10px;
+    height: 1px;
+}
+form {
+	max-width: 50%;
+    /* margin: 40px 0; */
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 100%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background-color: indianred;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: brown;
+	transform: scale(1.2);
+}
+
+table {
+	position: absolute;
+    max-width: 1440px;
+    margin-left: 1000px;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+thead {
+	background: brown;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	padding: 8px 15px 10px;
+}
+label{
+    margin-right: 50%;
+}
